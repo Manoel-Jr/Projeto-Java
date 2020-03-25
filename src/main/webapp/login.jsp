@@ -37,10 +37,10 @@
     <form class="form-signin" method="post" action="logar">
 		  <h1 class="h3 mb-3 font-weight-normal">Login</h1>
 		  <label for="email" class="sr-only">Email</label>
-		  <input type="email" id="email" name="email" class="form-control" placeholder="login" required autofocus>
+		  <input type="email" id="email" name="email" class="form-control" placeholder="login">
 		    <br/>
 		  <label for="senha" class="sr-only">Senha</label>
-		  <input type="password" id="senha" name="senha" class="form-control" placeholder="Senha" required>
+		  <input type="password" id="senha" name="senha" class="form-control" placeholder="Senha">
 		  
 		  <input type="submit" value="Enviar" name="Enviar"></input>
 		  <p class="mt-5 mb-3 text-muted">&copy; 2017-2019</p>
