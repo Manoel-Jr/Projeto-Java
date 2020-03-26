@@ -24,20 +24,8 @@ public class UsuarioServlet extends HttpServlet{
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		// TODO Auto-generated method stub
+		
 		/*
-		String email = req.getParameter("email");
-		String senha = req.getParameter("senha");
-		
-		if(email.equals("") && senha.equals("")) {
-			resp.sendRedirect("login.jsp");
-		}
-		else
-		   if(email.equals("junior@hotmail.com") && senha.equals("12345")){
-			resp.sendRedirect("index.jsp");
-		}
-		
-		*/
-		
 		String email = req.getParameter("email");
 		String senha = req.getParameter("senha");
 		
@@ -55,7 +43,8 @@ public class UsuarioServlet extends HttpServlet{
 		else if(user.getEmail1() != "junior@hotmail.com" && user.getSenha1()!= "") {
 			resp.getWriter().print("E-mail "+ user.getEmail1() + "é Invalido!");
 		}
-		
+	
+	 */
 	}
 	
 }

@@ -42,12 +42,10 @@
 		  <label for="senha" class="sr-only">Senha</label>
 		  <input type="password" id="senha" name="senha" class="form-control" placeholder="Senha">
 		  
-		  <input type="submit" value="Enviar" name="Enviar"></input>
+		  <input type="submit" value="Enviar" name="Enviar" onclick="valida()"></input>
 		  <p class="mt-5 mb-3 text-muted">&copy; 2017-2019</p>
 	</form>
-	
-	
-	 <!-- <script>
+	 <script type="text/javascript">
 	 function valida(){
 		    event.preventDefault();
 		    var email = document.getElementById("email").value;
@@ -57,10 +55,21 @@
 			    alert('Campos obrigatorios não preenchidos!');
 			    window.history.back('http://localhost:8080/agenda-acme/login.jsp');
 		    }
-		  }
-}
-   
-</script>-->
+		    else if(email != "junior@hotmail.com" && senha != "12345"){
+			       alert("E-mail e senha Estão Invalidos!");
+			}
+		    else if(email != "junior@hotmail.com" && senha === "12345"){
+			        alert("Usuario " + email + "  Invalido!");
+			}
+		    else if(email === "junior@hotmail.com" && senha != "12345"){
+			       alert("Senha Invalida!");
+			}
+		    else if(email === "junior@hotmail.com" && senha === "12345"){
+			    alert("Bem-Vindo(a)");
+		    	window.location.href = "index.jsp";
+			    }
+	 }
+</script>
 </body>
 </html>
 
