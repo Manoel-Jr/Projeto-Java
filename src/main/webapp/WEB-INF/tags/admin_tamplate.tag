@@ -26,12 +26,13 @@
 				<li class="nav-item dropdown">
 					<a href="#" id="dd_user" class="nav-link dropdown-toggle" data-toggle="dropdown">
 						<i class="fa fa-user"></i> 
-						Carlos Filho
+						Junior Healy
 					</a>
 					
 					<div class="dropdown-menu dropdown-menu-right"
 						aria-labelledby="dd_user">
 						<a href="${pageContext.request.contextPath}/login.jsp" class="dropdown-item">Sair</a>
+						<a href="${pageContext.request.contextPath}/login.jsp" class="dropdown-item">Novo Usuario</a>
 					</div>
 				</li>
 			</ul>
