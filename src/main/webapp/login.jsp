@@ -43,9 +43,10 @@
 		  <input type="password" id="senha" name="senha" class="form-control" placeholder="Senha">
 		  
 		  <input type="submit" value="Enviar" name="Enviar" onclick="valida()"></input>
-		  <p class="mt-5 mb-3 text-muted">&copy; 2017-2019</p>
+		  <p class="mt-5 mb-3 text-muted">&copy; 2019-2020</p>
 	</form>
-	 <script type="text/javascript">
+
+	 <!-- <script type="text/javascript">
 	 function valida(){
 		    event.preventDefault();
 		    var email = document.getElementById("email").value;
@@ -69,7 +70,8 @@
 		    	window.location.href = "index.jsp";
 			    }
 	 }
-</script>
+</script>-->
+
 </body>
 </html>
 

@@ -54,7 +54,7 @@ public class Cadastro extends HttpServlet{
 		cadu.setEmail(email);
 		cadu.setSenha(senha);
 		cadu.setConfSenha(confSenha);
-		
+		 
 
 		/*
 		System.out.println("boa tarde!");

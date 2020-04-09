@@ -26,7 +26,7 @@ public class ValidarLoginServlet extends HttpServlet{
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		
-		
+		/*
 		String email = req.getParameter("email");
 		String senha = req.getParameter("senha");
 		
@@ -45,7 +45,7 @@ public class ValidarLoginServlet extends HttpServlet{
 			 resp.getWriter().print("E-mail "+ user.getEmail() + "é Invalido!");
 		}
 	
-	 
+	   */
 	}
 	
 }
